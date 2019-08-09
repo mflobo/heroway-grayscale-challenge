@@ -1,0 +1,99 @@
+.nav-header {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/img/bg-masthead.jpg');
+    background-size: 100vh, 100vw;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    justify-content: center;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    height: 30%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.nav p {
+    flex-grow: 2;
+    padding: 10px;
+    text-align: left;
+    margin-left: 10%;
+    font-family: 'Nunito', sans-serif;
+}
+
+.nav ul {
+    flex-grow: 1;
+    justify-content: space-around;
+    padding: 10px;
+    margin-left: 20%;
+}
+
+.nav li {
+    margin: 20px;
+    display: inline;
+}
+
+.nav a {
+    text-decoration: none;
+    color: rgba(255,255,255,.5);
+    font-family: 'Nunito';
+}
+
+.nav p a {
+    font-weight: bolder;
+    font-size: 1.3em;
+}
+
+.nav ul a {
+    font-size: 1.1em;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header h1 {
+    font-family: 'Varela Round';
+    font-size: 6em;
+    line-height: 6.5rem;
+    letter-spacing: 0.8rem;
+    background: -webkit-linear-gradient(rgba(255,255,255,.9),rgba(255,255,255,0));
+    background-clip: border-box;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    margin: auto;
+}
+
+.header h2 {
+    max-width: 20em;
+    text-align: center;
+    color: rgba(255,255,255,.5);
+    font-size: 1.2em;
+}
+
+.header button {
+    box-shadow: 0 .1875rem .1875rem 0 rgba(0,0,0,.1) !important;
+    padding: 1.25rem 2rem;
+    font-family: 'Varela Round';
+    font-size: 80%;
+    text-transform: uppercase;
+    letter-spacing: .15rem;
+    border: 0;
+    background-color: #64a19d;
+    margin-top: 3em;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+}
+
+
