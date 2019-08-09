@@ -1,0 +1,35 @@
+.info {
+    display: flex;
+    flex-direction: column;
+    height: 35em;
+    width: 100%;
+    background: linear-gradient(to bottom,#161616 0,rgba(22,22,22,.9) 75%,rgba(22,22,22,.8) 100%);
+}
+
+.info-txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info-txt h5 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 500;
+    color: white;
+}
+
+.info-txt p {
+    text-align: center;
+    font-size: 1.1em;
+    color: rgba(255,255,255,.5);
+    width: 55%;
+    margin: auto;
+    line-height: 1.3em;
+}
+
+.info img {
+    width: 70%;
+    align-self: center;
+    margin-top: 5.5%;
+}

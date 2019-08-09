@@ -1,12 +1,14 @@
 .nav-header {
     display: flex;
     flex-direction: column;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/img/bg-masthead.jpg');
+    background-image: linear-gradient(to bottom,rgba(22,22,22,.3) 0,rgba(22,22,22,.7) 75%,#161616 100%), url('/img/bg-masthead.jpg');
     background-size: 100vh, 100vw;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     position: relative;
     justify-content: center;
+    background-position: center;
+    background-size: cover;
 }
 
 .nav {
@@ -14,7 +16,7 @@
     flex-direction: row;
     height: 30%;
     width: 100%;
-    position: fixed;
+    position: absolute;
     top: 0;
 }
 

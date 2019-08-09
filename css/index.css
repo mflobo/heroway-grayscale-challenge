@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Varela+Round');
 
 @import 'nav-header.css';
+@import 'info.css';
 
 * {
     box-sizing: border-box;
@@ -10,6 +11,12 @@ html, body {
     margin: 0;
     padding: 0;
     font: 16px 'Nunito', sans-serif;
+}
+
+.full-page {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 
 
