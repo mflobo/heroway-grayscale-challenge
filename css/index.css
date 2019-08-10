@@ -3,6 +3,7 @@
 
 @import 'nav-header.css';
 @import 'info.css';
+@import 'portfolio.css';
 
 * {
     box-sizing: border-box;

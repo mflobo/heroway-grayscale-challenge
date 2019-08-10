@@ -1,0 +1,51 @@
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+}
+
+.shoreline {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    width: 80%;
+    margin-top: 10%;
+}
+
+.shoreline img {
+    width: 70%;
+}
+
+.shoreline div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    width: 30%;
+    margin-left: 3em;
+    border-left: 0.5em solid #64a19d;
+    height: 40%;
+    margin: auto;
+    padding-left: 1.5em;
+}
+
+.shoreline h3 {
+    font-size: 1.5em;
+    font-weight: 400; 
+    color: #212529; 
+    margin: 0.2em;  
+}
+
+.shoreline p {
+    color:  rgba(0,0,0,.5);
+    letter-spacing: 0.08em;
+}
+
+.misty-mountains img {
+    width: 30%;
+}
+
+.misty-mountains {
+    margin: auto;
+}
