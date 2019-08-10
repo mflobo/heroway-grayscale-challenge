@@ -42,10 +42,50 @@
     letter-spacing: 0.08em;
 }
 
-.misty-mountains img {
-    width: 30%;
-}
-
 .misty-mountains {
     margin: auto;
+    align-self: center;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10%;
+}
+
+.misty-mountains img {
+    width: 50%;
+}
+
+.misty-mountains div {
+    width: 50%;
+    background-color: #161616;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.misty-mountains h3 {
+    color: white;
+    margin: 0.1em;
+    font-size: 1.5em;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+}
+
+.misty-mountains p {
+    color: rgba(255,255,255,.5);
+}
+
+.misty-mountains div h3, .misty-mountains div p {
+    width: 60%;
+    background-color: #161616;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
 }
