@@ -81,7 +81,7 @@
     font-size: 1.2em;
 }
 
-.header button {
+.header button, .signup button {
     box-shadow: 0 .1875rem .1875rem 0 rgba(0,0,0,.1) !important;
     padding: 1.25rem 2rem;
     font-family: 'Varela Round';
@@ -93,7 +93,7 @@
     margin-top: 3em;
 }
 
-.header a {
+.header a, .signup a {
     text-decoration: none;
     color: white;
 }

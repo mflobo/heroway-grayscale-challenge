@@ -4,6 +4,7 @@
 @import 'nav-header.css';
 @import 'info.css';
 @import 'portfolio.css';
+@import 'signup.css';
 
 * {
     box-sizing: border-box;
