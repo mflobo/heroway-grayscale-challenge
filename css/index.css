@@ -5,6 +5,7 @@
 @import 'info.css';
 @import 'portfolio.css';
 @import 'signup.css';
+@import 'contact-info-footer.css';
 
 * {
     box-sizing: border-box;
